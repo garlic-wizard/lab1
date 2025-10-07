@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-IMAGE_NAME="${IMAGE_NAME:-yourdockerhubuser/lab1-api}"
+IMAGE_NAME="${IMAGE_NAME:-garlicwizard/lab1-api}"
 TAG="${TAG:-latest}"
 CONTAINER_NAME="${CONTAINER_NAME:-lab1-api}"
 PORT="${PORT:-8000}"
