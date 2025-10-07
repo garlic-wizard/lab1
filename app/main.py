@@ -1,6 +1,7 @@
 # app/main.py
 from fastapi import FastAPI, HTTPException
 
+
 app = FastAPI(title="Arithmetic API")
 
 def to_float(x):
